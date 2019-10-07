@@ -1,14 +1,71 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<link href="https://fonts.googleapis.com/css?family=Kristi&display=swap" rel="stylesheet">
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+    <div class="background">
+        <div class="fold">
+                <div class="center-padding">
+                        <img [@elementState]="state" class="logo" src="assets/logo1.png" alt="logo">
+                        <img [@elementState2]="state" class="logo" src="assets/logo2.png" alt="logo">
+                    </div>
+                    <div class="name" [@elementState3]="state">
+                        <h1 class = "name">Amanda Ngo</h1>
+                    </div>
+                    <div class="center">
+                        <img [@elementState4]="state" class="arrow" src="assets/arrow.png" alt="arrow">
+                    </div>
+        </div>
+
+        <div class="center">
+            <h1>
+                Personal Statement
+            </h1>
+            <p>
+                My mission is to build tools that help as many people as possible reach their goals. Reaching one’s goals is the epitome of empowerment, independence, and success. I believe people can accomplish much more than they believe, and equipping them with effective tools enables them to materialize their visions. There are many barriers that stand in the way of goal achievement. For example, situational factors, a lack of self-belief, not knowing how to set up effective systems, or simply not knowing which goals to pursue. I want to help people figure out their goals, and help them build systems to overcome these barriers to achieve them. It is a meta-solution, as it allows people to more effectively work on their own personal missions.  The feeling of empowering and enabling people is one of the most rewarding feelings I can imagine. 
+            </p>
+            <p>
+                This desire to enable people to reach their goals has been the thread underlying many of the initiatives I’ve done over the past 3 years. As a teaching assistant in Wharton’s business and leadership course, and in Schoolyard Venture’s high school entrepreneurship course, I have mentored younger students through the process of realizing they have agency and knowing how to take action in a new environment. I co-founded the Meraki Collective, which is a creative coworking community at the University of Pennsylvania that helps people have accountability and a community with which to work on side-projects they care about. I built an app designed to nudge people towards gratitude, and developed a question framework that I used to coach 6 people for multiple hours through the exploration of their career goals. As a student in behavioral science, I am writing my thesis on personal rules with Dr. Angela Duckworth and Dr. Katy Milkman. I am deeply motivated to continue this work and build products that empower and enable people.
+            </p>
+            <p>
+                There is an abundance of exciting possibilities for how to help people reach their goals. Some that I’ve considered include:
+            </p>      
+                <ul>
+                    <li>Habit-forming systems like Fabulous and Coach.me</li>
+                    <li>Giving people mental tools to improve their decision-making and introspection (similar to Upgradable)</li>
+                    <li>Coaching to help people crystallize their goals and overcome mental blocks</li>
+                    <li>Bootcamps that help you discover and build your life philosophy</li>
+                    <li>Productivity systems that improve our workflow</li>
+                    <li>Nudges towards practicing habits that people endorse, like gratitude and meditation</li>
+                    <li>Solutions using artificial intelligence to model the mind and help us improve our thinking and decision-making (similar to Ought)</li>
+                </ul>
+            
+            <p>
+                I think there are few solutions that look holistically at the entire process. Figuring out what goals to work towards that align with someone’s underlying values is a complicated task. I have yet to find an effective system that, for example, helps people work through the mental blocks preventing them from reaching their goals. As the science of goals continues to advance, I believe there will be many more possibilities of products that can significantly improve people’s efficacy.    
+            </p>
+        </div>
+
+        <div class="center">
+                <h1>
+                        Product Review
+                    </h1>
+
+                    <iframe width="700vw" height="400vw" src="https://www.youtube.com/embed/-mJtU4caCyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
 </ion-content>
+<ion-footer>
+        <table style="width:20%">
+            <tr>
+                <th>
+                        <a href="http://amandango.me">amandango.me</a>
+                </th>
+                <th>
+                        <a href="assets/Amanda Ngo Resume.pdf" download>Resume</a>
+                </th>
+            </tr>
+        </table>
+        
+</ion-footer>

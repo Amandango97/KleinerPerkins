@@ -1,1 +1,75 @@
 
+.background {
+    position: absolute;
+    left:0;
+    right: 0;
+    width: 100vw;
+    height: 100vw;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transform: scale(0.7);
+    padding: 0 0 0;
+
+}
+
+.center-padding {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 8vw 0 0 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transform: scale(0.2);
+    padding: 2vw 2vw 0;
+}
+
+.name {
+    font-family: 'Kristi', cursive;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 5vw;
+    padding: 0 0 0 0;
+}
+
+.fold {
+    height: 50%;
+    width: 100%;
+}
+
+ion-content {
+    background-color: lightblue;
+}
+
+p {
+    line-height: 30px;
+}
+
+ul {
+    line-height: 30px;
+}
+
+h1 {
+    padding: 5vw 0 3vw;
+}
+
+ion-footer {
+    padding: 2vw;
+}
